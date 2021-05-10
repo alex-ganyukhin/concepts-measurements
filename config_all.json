@@ -86,19 +86,70 @@
 
     "sources": [
         {
-            "file": "tested_sources/function_with_auto.cpp",
+            "file": "tested_sources/optional_like_17.cpp",
+            "builds": ["gcc-17-O0", "gcc-17-O3", "clang-17-O0", "clang-17-O3"]
+        },
+        {
+            "file": "tested_sources/optional_like_20.cpp",
+            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
+        },
+
+        {
+            "file": "tested_sources/optional_like_3methods_17.cpp",
+            "builds": ["gcc-17-O0", "gcc-17-O3", "clang-17-O0", "clang-17-O3"]
+        },
+        {
+            "file": "tested_sources/optional_like_3methods_20.cpp",
+            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
+        },
+
+        {
+            "file": "tested_sources/optional_like_no_type_traits_17.cpp",
+            "builds": ["gcc-17-O0", "gcc-17-O3", "clang-17-O0", "clang-17-O3"]
+        },
+        {
+            "file": "tested_sources/optional_like_no_type_traits_20.cpp",
+            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
+        },
+
+
+        {
+            "file": "tested_sources/concept_complexity_1.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         },
         {
-            "file": "tested_sources/function_requires_clause.cpp",
+            "file": "tested_sources/concept_complexity_2.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         },
         {
-            "file": "tested_sources/function_after_template.cpp",
+            "file": "tested_sources/concept_complexity_3.cpp",
+            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
+        },
+
+
+        {
+            "file": "tested_sources/incrementable_03.cpp",
+            "builds": ["gcc-03-O0", "gcc-03-O3", "clang-03-O0", "clang-03-O3"]
+        },
+        {
+            "file": "tested_sources/incrementable_17.cpp",
+            "builds": ["gcc-17-O0", "gcc-17-O3", "clang-17-O0", "clang-17-O3"]
+        },
+        {
+            "file": "tested_sources/incrementable_17_no_type_traits.cpp",
+            "builds": ["gcc-17-O0", "gcc-17-O3", "clang-17-O0", "clang-17-O3"]
+        },
+        {
+            "file": "tested_sources/incrementable_20.cpp",
+            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
+        },
+
+        {
+            "file": "tested_sources/concept_vs_inline_expression_CONCEPT.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         },
         {
-            "file": "tested_sources/function_instead_of_typename.cpp",
+            "file": "tested_sources/concept_vs_inline_expression_INLINE.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         }
     ]
