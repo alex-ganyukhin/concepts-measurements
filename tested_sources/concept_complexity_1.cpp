@@ -1,3 +1,4 @@
+#include <concepts>
 template<typename T>
 concept ConceptA = sizeof(T) >= 1;
 
@@ -7,9 +8,10 @@ concept TestedConcept = ConceptA<T>;
 void foo(TestedConcept auto const &) {}
 void foo(auto const &) {}
 
-struct S {};
 void later() {
-    foo(int { 1 });
-    struct S {};
-    foo(S{});
+    int i { 0 };
+    int * ip = &i;
+
+    foo(i);
+    foo(ip);
 }

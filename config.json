@@ -86,19 +86,15 @@
 
     "sources": [
         {
-            "file": "tested_sources/function_with_auto.cpp",
+            "file": "tested_sources/concept_complexity_1.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         },
         {
-            "file": "tested_sources/function_requires_clause.cpp",
+            "file": "tested_sources/concept_complexity_2.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         },
         {
-            "file": "tested_sources/function_after_template.cpp",
-            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
-        },
-        {
-            "file": "tested_sources/function_instead_of_typename.cpp",
+            "file": "tested_sources/concept_complexity_.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         }
     ]

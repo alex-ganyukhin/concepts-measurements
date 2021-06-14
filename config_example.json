@@ -86,10 +86,6 @@
 
     "sources": [
         {
-            "file": "tested_sources/optional_like_17.cpp",
-            "builds": ["gcc-17-O0", "gcc-17-O3", "clang-17-O0", "clang-17-O3"]
-        },
-        {
             "file": "tested_sources/optional_like_20.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         },
@@ -111,21 +107,6 @@
             "file": "tested_sources/optional_like_no_type_traits_20.cpp",
             "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
         },
-
-
-        {
-            "file": "tested_sources/concept_complexity_1.cpp",
-            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
-        },
-        {
-            "file": "tested_sources/concept_complexity_2.cpp",
-            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
-        },
-        {
-            "file": "tested_sources/concept_complexity_3.cpp",
-            "builds": ["gcc-20-O0", "gcc-20-O3", "clang-20-O0", "clang-20-O3"]
-        },
-
 
         {
             "file": "tested_sources/incrementable_03.cpp",
