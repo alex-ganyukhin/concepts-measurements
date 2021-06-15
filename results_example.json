@@ -5,13 +5,18 @@
             "build": "gcc-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.35138678550720215,
+                    "elapsed-time": 0.3522152900695801,
+                    "obj-size": 1968,
+                    "meaning-chars": 253
+                },
+                {
+                    "elapsed-time": 0.35378551483154297,
                     "obj-size": 1968,
                     "meaning-chars": 253
                 }
             ],
             "average": {
-                "elapsed-time": 0.35138678550720215,
+                "elapsed-time": 0.3530004024505615,
                 "obj-size": 1968.0,
                 "meaning-chars": 253.0
             }
@@ -21,13 +26,18 @@
             "build": "gcc-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.35326623916625977,
+                    "elapsed-time": 0.3870539665222168,
+                    "obj-size": 1200,
+                    "meaning-chars": 253
+                },
+                {
+                    "elapsed-time": 0.37790822982788086,
                     "obj-size": 1200,
                     "meaning-chars": 253
                 }
             ],
             "average": {
-                "elapsed-time": 0.35326623916625977,
+                "elapsed-time": 0.38248109817504883,
                 "obj-size": 1200.0,
                 "meaning-chars": 253.0
             }
@@ -37,13 +47,18 @@
             "build": "clang-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.5238618850708008,
+                    "elapsed-time": 0.47716808319091797,
+                    "obj-size": 1816,
+                    "meaning-chars": 253
+                },
+                {
+                    "elapsed-time": 0.448488712310791,
                     "obj-size": 1816,
                     "meaning-chars": 253
                 }
             ],
             "average": {
-                "elapsed-time": 0.5238618850708008,
+                "elapsed-time": 0.4628283977508545,
                 "obj-size": 1816.0,
                 "meaning-chars": 253.0
             }
@@ -53,13 +68,18 @@
             "build": "clang-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.5252695083618164,
+                    "elapsed-time": 0.48569679260253906,
+                    "obj-size": 1024,
+                    "meaning-chars": 253
+                },
+                {
+                    "elapsed-time": 0.46226930618286133,
                     "obj-size": 1024,
                     "meaning-chars": 253
                 }
             ],
             "average": {
-                "elapsed-time": 0.5252695083618164,
+                "elapsed-time": 0.4739830493927002,
                 "obj-size": 1024.0,
                 "meaning-chars": 253.0
             }
@@ -69,13 +89,18 @@
             "build": "gcc-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.2052922248840332,
+                    "elapsed-time": 0.18760418891906738,
+                    "obj-size": 4264,
+                    "meaning-chars": 1280
+                },
+                {
+                    "elapsed-time": 0.18630552291870117,
                     "obj-size": 4264,
                     "meaning-chars": 1280
                 }
             ],
             "average": {
-                "elapsed-time": 0.2052922248840332,
+                "elapsed-time": 0.18695485591888428,
                 "obj-size": 4264.0,
                 "meaning-chars": 1280.0
             }
@@ -85,13 +110,18 @@
             "build": "gcc-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.20046234130859375,
+                    "elapsed-time": 0.18824100494384766,
+                    "obj-size": 1216,
+                    "meaning-chars": 1280
+                },
+                {
+                    "elapsed-time": 0.19667911529541016,
                     "obj-size": 1216,
                     "meaning-chars": 1280
                 }
             ],
             "average": {
-                "elapsed-time": 0.20046234130859375,
+                "elapsed-time": 0.1924600601196289,
                 "obj-size": 1216.0,
                 "meaning-chars": 1280.0
             }
@@ -101,13 +131,18 @@
             "build": "clang-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.4139540195465088,
+                    "elapsed-time": 0.37130117416381836,
+                    "obj-size": 3608,
+                    "meaning-chars": 1280
+                },
+                {
+                    "elapsed-time": 0.3708667755126953,
                     "obj-size": 3608,
                     "meaning-chars": 1280
                 }
             ],
             "average": {
-                "elapsed-time": 0.4139540195465088,
+                "elapsed-time": 0.37108397483825684,
                 "obj-size": 3608.0,
                 "meaning-chars": 1280.0
             }
@@ -117,13 +152,18 @@
             "build": "clang-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.4068002700805664,
+                    "elapsed-time": 0.3937849998474121,
+                    "obj-size": 1000,
+                    "meaning-chars": 1280
+                },
+                {
+                    "elapsed-time": 0.3703031539916992,
                     "obj-size": 1000,
                     "meaning-chars": 1280
                 }
             ],
             "average": {
-                "elapsed-time": 0.4068002700805664,
+                "elapsed-time": 0.38204407691955566,
                 "obj-size": 1000.0,
                 "meaning-chars": 1280.0
             }
@@ -133,13 +173,18 @@
             "build": "gcc-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.43474340438842773,
+                    "elapsed-time": 0.39050793647766113,
+                    "obj-size": 3984,
+                    "meaning-chars": 582
+                },
+                {
+                    "elapsed-time": 0.37972211837768555,
                     "obj-size": 3984,
                     "meaning-chars": 582
                 }
             ],
             "average": {
-                "elapsed-time": 0.43474340438842773,
+                "elapsed-time": 0.38511502742767334,
                 "obj-size": 3984.0,
                 "meaning-chars": 582.0
             }
@@ -149,13 +194,18 @@
             "build": "gcc-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.40346455574035645,
+                    "elapsed-time": 0.40117478370666504,
+                    "obj-size": 1216,
+                    "meaning-chars": 582
+                },
+                {
+                    "elapsed-time": 0.3706703186035156,
                     "obj-size": 1216,
                     "meaning-chars": 582
                 }
             ],
             "average": {
-                "elapsed-time": 0.40346455574035645,
+                "elapsed-time": 0.38592255115509033,
                 "obj-size": 1216.0,
                 "meaning-chars": 582.0
             }
@@ -165,13 +215,18 @@
             "build": "clang-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.5314488410949707,
+                    "elapsed-time": 0.4460296630859375,
+                    "obj-size": 4112,
+                    "meaning-chars": 582
+                },
+                {
+                    "elapsed-time": 0.4869818687438965,
                     "obj-size": 4112,
                     "meaning-chars": 582
                 }
             ],
             "average": {
-                "elapsed-time": 0.5314488410949707,
+                "elapsed-time": 0.466505765914917,
                 "obj-size": 4112.0,
                 "meaning-chars": 582.0
             }
@@ -181,13 +236,18 @@
             "build": "clang-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.5606145858764648,
+                    "elapsed-time": 0.4796895980834961,
+                    "obj-size": 1080,
+                    "meaning-chars": 582
+                },
+                {
+                    "elapsed-time": 0.4578824043273926,
                     "obj-size": 1080,
                     "meaning-chars": 582
                 }
             ],
             "average": {
-                "elapsed-time": 0.5606145858764648,
+                "elapsed-time": 0.46878600120544434,
                 "obj-size": 1080.0,
                 "meaning-chars": 582.0
             }
@@ -197,13 +257,18 @@
             "build": "gcc-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.222062349319458,
+                    "elapsed-time": 0.18353509902954102,
+                    "obj-size": 1984,
+                    "meaning-chars": 272
+                },
+                {
+                    "elapsed-time": 0.19213628768920898,
                     "obj-size": 1984,
                     "meaning-chars": 272
                 }
             ],
             "average": {
-                "elapsed-time": 0.222062349319458,
+                "elapsed-time": 0.187835693359375,
                 "obj-size": 1984.0,
                 "meaning-chars": 272.0
             }
@@ -213,13 +278,18 @@
             "build": "gcc-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.23357367515563965,
+                    "elapsed-time": 0.1868150234222412,
+                    "obj-size": 1216,
+                    "meaning-chars": 272
+                },
+                {
+                    "elapsed-time": 0.18662595748901367,
                     "obj-size": 1216,
                     "meaning-chars": 272
                 }
             ],
             "average": {
-                "elapsed-time": 0.23357367515563965,
+                "elapsed-time": 0.18672049045562744,
                 "obj-size": 1216.0,
                 "meaning-chars": 272.0
             }
@@ -229,13 +299,18 @@
             "build": "clang-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.43906688690185547,
+                    "elapsed-time": 0.3568141460418701,
+                    "obj-size": 1440,
+                    "meaning-chars": 272
+                },
+                {
+                    "elapsed-time": 0.4236464500427246,
                     "obj-size": 1440,
                     "meaning-chars": 272
                 }
             ],
             "average": {
-                "elapsed-time": 0.43906688690185547,
+                "elapsed-time": 0.39023029804229736,
                 "obj-size": 1440.0,
                 "meaning-chars": 272.0
             }
@@ -245,13 +320,18 @@
             "build": "clang-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.41103410720825195,
+                    "elapsed-time": 0.37888479232788086,
+                    "obj-size": 960,
+                    "meaning-chars": 272
+                },
+                {
+                    "elapsed-time": 0.36205196380615234,
                     "obj-size": 960,
                     "meaning-chars": 272
                 }
             ],
             "average": {
-                "elapsed-time": 0.41103410720825195,
+                "elapsed-time": 0.3704683780670166,
                 "obj-size": 960.0,
                 "meaning-chars": 272.0
             }
@@ -261,13 +341,18 @@
             "build": "gcc-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.4158504009246826,
+                    "elapsed-time": 0.38286900520324707,
+                    "obj-size": 1984,
+                    "meaning-chars": 204
+                },
+                {
+                    "elapsed-time": 0.34921932220458984,
                     "obj-size": 1984,
                     "meaning-chars": 204
                 }
             ],
             "average": {
-                "elapsed-time": 0.4158504009246826,
+                "elapsed-time": 0.36604416370391846,
                 "obj-size": 1984.0,
                 "meaning-chars": 204.0
             }
@@ -277,13 +362,18 @@
             "build": "gcc-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.43552732467651367,
+                    "elapsed-time": 0.3850669860839844,
+                    "obj-size": 1216,
+                    "meaning-chars": 204
+                },
+                {
+                    "elapsed-time": 0.3821573257446289,
                     "obj-size": 1216,
                     "meaning-chars": 204
                 }
             ],
             "average": {
-                "elapsed-time": 0.43552732467651367,
+                "elapsed-time": 0.38361215591430664,
                 "obj-size": 1216.0,
                 "meaning-chars": 204.0
             }
@@ -293,13 +383,18 @@
             "build": "clang-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.5066556930541992,
+                    "elapsed-time": 0.4937257766723633,
+                    "obj-size": 1832,
+                    "meaning-chars": 204
+                },
+                {
+                    "elapsed-time": 0.4479861259460449,
                     "obj-size": 1832,
                     "meaning-chars": 204
                 }
             ],
             "average": {
-                "elapsed-time": 0.5066556930541992,
+                "elapsed-time": 0.4708559513092041,
                 "obj-size": 1832.0,
                 "meaning-chars": 204.0
             }
@@ -309,13 +404,18 @@
             "build": "clang-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.5025539398193359,
+                    "elapsed-time": 0.4744546413421631,
+                    "obj-size": 1040,
+                    "meaning-chars": 204
+                },
+                {
+                    "elapsed-time": 0.5087323188781738,
                     "obj-size": 1040,
                     "meaning-chars": 204
                 }
             ],
             "average": {
-                "elapsed-time": 0.5025539398193359,
+                "elapsed-time": 0.49159348011016846,
                 "obj-size": 1040.0,
                 "meaning-chars": 204.0
             }
@@ -325,13 +425,18 @@
             "build": "gcc-03-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.016244888305664062,
+                    "elapsed-time": 0.015820980072021484,
+                    "obj-size": 1568,
+                    "meaning-chars": 782
+                },
+                {
+                    "elapsed-time": 0.01630568504333496,
                     "obj-size": 1568,
                     "meaning-chars": 782
                 }
             ],
             "average": {
-                "elapsed-time": 0.016244888305664062,
+                "elapsed-time": 0.016063332557678223,
                 "obj-size": 1568.0,
                 "meaning-chars": 782.0
             }
@@ -341,13 +446,18 @@
             "build": "gcc-03-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.016180992126464844,
+                    "elapsed-time": 0.017519712448120117,
+                    "obj-size": 1552,
+                    "meaning-chars": 782
+                },
+                {
+                    "elapsed-time": 0.016988515853881836,
                     "obj-size": 1552,
                     "meaning-chars": 782
                 }
             ],
             "average": {
-                "elapsed-time": 0.016180992126464844,
+                "elapsed-time": 0.017254114151000977,
                 "obj-size": 1552.0,
                 "meaning-chars": 782.0
             }
@@ -357,13 +467,18 @@
             "build": "clang-03-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.04042959213256836,
+                    "elapsed-time": 0.049431800842285156,
+                    "obj-size": 1304,
+                    "meaning-chars": 782
+                },
+                {
+                    "elapsed-time": 0.04389238357543945,
                     "obj-size": 1304,
                     "meaning-chars": 782
                 }
             ],
             "average": {
-                "elapsed-time": 0.04042959213256836,
+                "elapsed-time": 0.046662092208862305,
                 "obj-size": 1304.0,
                 "meaning-chars": 782.0
             }
@@ -373,13 +488,18 @@
             "build": "clang-03-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.04504656791687012,
+                    "elapsed-time": 0.046966552734375,
+                    "obj-size": 1296,
+                    "meaning-chars": 782
+                },
+                {
+                    "elapsed-time": 0.0481572151184082,
                     "obj-size": 1296,
                     "meaning-chars": 782
                 }
             ],
             "average": {
-                "elapsed-time": 0.04504656791687012,
+                "elapsed-time": 0.0475618839263916,
                 "obj-size": 1296.0,
                 "meaning-chars": 782.0
             }
@@ -389,13 +509,18 @@
             "build": "gcc-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.03153681755065918,
+                    "elapsed-time": 0.03157448768615723,
+                    "obj-size": 1568,
+                    "meaning-chars": 472
+                },
+                {
+                    "elapsed-time": 0.033393144607543945,
                     "obj-size": 1568,
                     "meaning-chars": 472
                 }
             ],
             "average": {
-                "elapsed-time": 0.03153681755065918,
+                "elapsed-time": 0.032483816146850586,
                 "obj-size": 1568.0,
                 "meaning-chars": 472.0
             }
@@ -405,13 +530,18 @@
             "build": "gcc-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.0391087532043457,
+                    "elapsed-time": 0.0317080020904541,
+                    "obj-size": 1552,
+                    "meaning-chars": 472
+                },
+                {
+                    "elapsed-time": 0.034264326095581055,
                     "obj-size": 1552,
                     "meaning-chars": 472
                 }
             ],
             "average": {
-                "elapsed-time": 0.0391087532043457,
+                "elapsed-time": 0.03298616409301758,
                 "obj-size": 1552.0,
                 "meaning-chars": 472.0
             }
@@ -421,13 +551,18 @@
             "build": "clang-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.07852649688720703,
+                    "elapsed-time": 0.06501221656799316,
+                    "obj-size": 1320,
+                    "meaning-chars": 472
+                },
+                {
+                    "elapsed-time": 0.06919097900390625,
                     "obj-size": 1320,
                     "meaning-chars": 472
                 }
             ],
             "average": {
-                "elapsed-time": 0.07852649688720703,
+                "elapsed-time": 0.06710159778594971,
                 "obj-size": 1320.0,
                 "meaning-chars": 472.0
             }
@@ -437,13 +572,18 @@
             "build": "clang-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.06352829933166504,
+                    "elapsed-time": 0.07493996620178223,
+                    "obj-size": 1304,
+                    "meaning-chars": 472
+                },
+                {
+                    "elapsed-time": 0.06454586982727051,
                     "obj-size": 1304,
                     "meaning-chars": 472
                 }
             ],
             "average": {
-                "elapsed-time": 0.06352829933166504,
+                "elapsed-time": 0.06974291801452637,
                 "obj-size": 1304.0,
                 "meaning-chars": 472.0
             }
@@ -453,13 +593,18 @@
             "build": "gcc-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.018686532974243164,
+                    "elapsed-time": 0.015582561492919922,
+                    "obj-size": 1584,
+                    "meaning-chars": 714
+                },
+                {
+                    "elapsed-time": 0.021561384201049805,
                     "obj-size": 1584,
                     "meaning-chars": 714
                 }
             ],
             "average": {
-                "elapsed-time": 0.018686532974243164,
+                "elapsed-time": 0.018571972846984863,
                 "obj-size": 1584.0,
                 "meaning-chars": 714.0
             }
@@ -469,13 +614,18 @@
             "build": "gcc-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.01786065101623535,
+                    "elapsed-time": 0.01810145378112793,
+                    "obj-size": 1568,
+                    "meaning-chars": 714
+                },
+                {
+                    "elapsed-time": 0.01770162582397461,
                     "obj-size": 1568,
                     "meaning-chars": 714
                 }
             ],
             "average": {
-                "elapsed-time": 0.01786065101623535,
+                "elapsed-time": 0.01790153980255127,
                 "obj-size": 1568.0,
                 "meaning-chars": 714.0
             }
@@ -485,13 +635,18 @@
             "build": "clang-17-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.04594302177429199,
+                    "elapsed-time": 0.04867291450500488,
+                    "obj-size": 1320,
+                    "meaning-chars": 714
+                },
+                {
+                    "elapsed-time": 0.04384350776672363,
                     "obj-size": 1320,
                     "meaning-chars": 714
                 }
             ],
             "average": {
-                "elapsed-time": 0.04594302177429199,
+                "elapsed-time": 0.04625821113586426,
                 "obj-size": 1320.0,
                 "meaning-chars": 714.0
             }
@@ -501,13 +656,18 @@
             "build": "clang-17-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.04479551315307617,
+                    "elapsed-time": 0.06028890609741211,
+                    "obj-size": 1312,
+                    "meaning-chars": 714
+                },
+                {
+                    "elapsed-time": 0.05079936981201172,
                     "obj-size": 1312,
                     "meaning-chars": 714
                 }
             ],
             "average": {
-                "elapsed-time": 0.04479551315307617,
+                "elapsed-time": 0.055544137954711914,
                 "obj-size": 1312.0,
                 "meaning-chars": 714.0
             }
@@ -517,13 +677,18 @@
             "build": "gcc-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.015900373458862305,
+                    "elapsed-time": 0.01483154296875,
+                    "obj-size": 1480,
+                    "meaning-chars": 230
+                },
+                {
+                    "elapsed-time": 0.013585567474365234,
                     "obj-size": 1480,
                     "meaning-chars": 230
                 }
             ],
             "average": {
-                "elapsed-time": 0.015900373458862305,
+                "elapsed-time": 0.014208555221557617,
                 "obj-size": 1480.0,
                 "meaning-chars": 230.0
             }
@@ -533,13 +698,18 @@
             "build": "gcc-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.018242597579956055,
+                    "elapsed-time": 0.015242576599121094,
+                    "obj-size": 1464,
+                    "meaning-chars": 230
+                },
+                {
+                    "elapsed-time": 0.015488386154174805,
                     "obj-size": 1464,
                     "meaning-chars": 230
                 }
             ],
             "average": {
-                "elapsed-time": 0.018242597579956055,
+                "elapsed-time": 0.01536548137664795,
                 "obj-size": 1464.0,
                 "meaning-chars": 230.0
             }
@@ -549,13 +719,18 @@
             "build": "clang-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.04929924011230469,
+                    "elapsed-time": 0.06009674072265625,
+                    "obj-size": 1304,
+                    "meaning-chars": 230
+                },
+                {
+                    "elapsed-time": 0.04175734519958496,
                     "obj-size": 1304,
                     "meaning-chars": 230
                 }
             ],
             "average": {
-                "elapsed-time": 0.04929924011230469,
+                "elapsed-time": 0.050927042961120605,
                 "obj-size": 1304.0,
                 "meaning-chars": 230.0
             }
@@ -565,13 +740,18 @@
             "build": "clang-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.049311161041259766,
+                    "elapsed-time": 0.050954580307006836,
+                    "obj-size": 1288,
+                    "meaning-chars": 230
+                },
+                {
+                    "elapsed-time": 0.047002315521240234,
                     "obj-size": 1288,
                     "meaning-chars": 230
                 }
             ],
             "average": {
-                "elapsed-time": 0.049311161041259766,
+                "elapsed-time": 0.048978447914123535,
                 "obj-size": 1288.0,
                 "meaning-chars": 230.0
             }
@@ -581,13 +761,18 @@
             "build": "gcc-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.01553201675415039,
+                    "elapsed-time": 0.014035224914550781,
+                    "obj-size": 1976,
+                    "meaning-chars": 157
+                },
+                {
+                    "elapsed-time": 0.015157699584960938,
                     "obj-size": 1976,
                     "meaning-chars": 157
                 }
             ],
             "average": {
-                "elapsed-time": 0.01553201675415039,
+                "elapsed-time": 0.01459646224975586,
                 "obj-size": 1976.0,
                 "meaning-chars": 157.0
             }
@@ -597,13 +782,18 @@
             "build": "gcc-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.01650691032409668,
+                    "elapsed-time": 0.015480279922485352,
+                    "obj-size": 1224,
+                    "meaning-chars": 157
+                },
+                {
+                    "elapsed-time": 0.014834880828857422,
                     "obj-size": 1224,
                     "meaning-chars": 157
                 }
             ],
             "average": {
-                "elapsed-time": 0.01650691032409668,
+                "elapsed-time": 0.015157580375671387,
                 "obj-size": 1224.0,
                 "meaning-chars": 157.0
             }
@@ -613,13 +803,18 @@
             "build": "clang-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.0458221435546875,
+                    "elapsed-time": 0.04842066764831543,
+                    "obj-size": 1736,
+                    "meaning-chars": 157
+                },
+                {
+                    "elapsed-time": 0.04375767707824707,
                     "obj-size": 1736,
                     "meaning-chars": 157
                 }
             ],
             "average": {
-                "elapsed-time": 0.0458221435546875,
+                "elapsed-time": 0.04608917236328125,
                 "obj-size": 1736.0,
                 "meaning-chars": 157.0
             }
@@ -629,13 +824,18 @@
             "build": "clang-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.042882680892944336,
+                    "elapsed-time": 0.05268144607543945,
+                    "obj-size": 1040,
+                    "meaning-chars": 157
+                },
+                {
+                    "elapsed-time": 0.045290231704711914,
                     "obj-size": 1040,
                     "meaning-chars": 157
                 }
             ],
             "average": {
-                "elapsed-time": 0.042882680892944336,
+                "elapsed-time": 0.048985838890075684,
                 "obj-size": 1040.0,
                 "meaning-chars": 157.0
             }
@@ -645,13 +845,18 @@
             "build": "gcc-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.01598048210144043,
+                    "elapsed-time": 0.015519380569458008,
+                    "obj-size": 1976,
+                    "meaning-chars": 118
+                },
+                {
+                    "elapsed-time": 0.015224456787109375,
                     "obj-size": 1976,
                     "meaning-chars": 118
                 }
             ],
             "average": {
-                "elapsed-time": 0.01598048210144043,
+                "elapsed-time": 0.015371918678283691,
                 "obj-size": 1976.0,
                 "meaning-chars": 118.0
             }
@@ -661,13 +866,18 @@
             "build": "gcc-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.017090320587158203,
+                    "elapsed-time": 0.014536619186401367,
+                    "obj-size": 1224,
+                    "meaning-chars": 118
+                },
+                {
+                    "elapsed-time": 0.014322042465209961,
                     "obj-size": 1224,
                     "meaning-chars": 118
                 }
             ],
             "average": {
-                "elapsed-time": 0.017090320587158203,
+                "elapsed-time": 0.014429330825805664,
                 "obj-size": 1224.0,
                 "meaning-chars": 118.0
             }
@@ -677,13 +887,18 @@
             "build": "clang-20-O0",
             "build_results": [
                 {
-                    "elapsed-time": 0.041051626205444336,
+                    "elapsed-time": 0.04749441146850586,
+                    "obj-size": 1736,
+                    "meaning-chars": 118
+                },
+                {
+                    "elapsed-time": 0.043933868408203125,
                     "obj-size": 1736,
                     "meaning-chars": 118
                 }
             ],
             "average": {
-                "elapsed-time": 0.041051626205444336,
+                "elapsed-time": 0.04571413993835449,
                 "obj-size": 1736.0,
                 "meaning-chars": 118.0
             }
@@ -693,19 +908,24 @@
             "build": "clang-20-O3",
             "build_results": [
                 {
-                    "elapsed-time": 0.03972768783569336,
+                    "elapsed-time": 0.03825640678405762,
+                    "obj-size": 1040,
+                    "meaning-chars": 118
+                },
+                {
+                    "elapsed-time": 0.03865194320678711,
                     "obj-size": 1040,
                     "meaning-chars": 118
                 }
             ],
             "average": {
-                "elapsed-time": 0.03972768783569336,
+                "elapsed-time": 0.03845417499542236,
                 "obj-size": 1040.0,
                 "meaning-chars": 118.0
             }
         }
     ],
     "config": {
-        "builds_per_test": 1
+        "builds_per_test": 2
     }
 }

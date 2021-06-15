@@ -81,7 +81,7 @@
         }
     ],
     "config": {
-        "builds_per_test": 100
+        "builds_per_test": 2
     },
 
     "sources": [

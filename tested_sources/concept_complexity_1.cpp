@@ -1,4 +1,3 @@
-#include <concepts>
 template<typename T>
 concept ConceptA = sizeof(T) >= 1;
 
