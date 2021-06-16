@@ -2,7 +2,7 @@ template<typename T>
 concept ConceptA = sizeof(T) >= 1;
 
 template<typename T>
-concept ConceptB =  requires(T i) {
+concept ConceptB =  requires(T i, int x) {
     { i++     } noexcept -> ConceptA;
     { ++i     } noexcept -> ConceptA;
     { i--     } noexcept -> ConceptA;
@@ -11,11 +11,42 @@ concept ConceptB =  requires(T i) {
     { i - i   } noexcept -> ConceptA;
     { i += i  } noexcept -> ConceptA;
     { i -= i  } noexcept -> ConceptA;
+
+    { i * i      } noexcept -> ConceptA;
+    { i / i      } noexcept -> ConceptA;
+    { i % i      } noexcept -> ConceptA;
+    { i *= i     } noexcept -> ConceptA;
+    { i /= i     } noexcept -> ConceptA;
+    { i %= i     } noexcept -> ConceptA;
+
+    { i |  i     } noexcept -> ConceptA;
+    { i &  i     } noexcept -> ConceptA;
+    { i |= i     } noexcept -> ConceptA;
+    { i &= i     } noexcept -> ConceptA;
+
+    { ~i          } noexcept -> ConceptA;
+
+    { i ^  i      } noexcept -> ConceptA;
+    { i << x      } noexcept -> ConceptA;
+    { i >> x      } noexcept -> ConceptA;
+
+    { i ^=  i      } noexcept -> ConceptA;
+    { i <<= x      } noexcept -> ConceptA;
+    { i >>= x      } noexcept -> ConceptA;
 };
 
 
 template<typename T>
-concept ConceptC =  requires(T i) {
+concept ConceptC =  requires(T i, int x) {
+    { i++     } noexcept -> ConceptB;
+    { ++i     } noexcept -> ConceptB;
+    { i--     } noexcept -> ConceptB;
+    { --i     } noexcept -> ConceptB;
+    { i + i   } noexcept -> ConceptB;
+    { i - i   } noexcept -> ConceptB;
+    { i += i  } noexcept -> ConceptB;
+    { i -= i  } noexcept -> ConceptB;
+
     { i * i      } noexcept -> ConceptB;
     { i / i      } noexcept -> ConceptB;
     { i % i      } noexcept -> ConceptB;
@@ -27,10 +58,55 @@ concept ConceptC =  requires(T i) {
     { i &  i     } noexcept -> ConceptB;
     { i |= i     } noexcept -> ConceptB;
     { i &= i     } noexcept -> ConceptB;
+
+    { ~i          } noexcept -> ConceptB;
+
+    { i ^  i      } noexcept -> ConceptB;
+    { i << x      } noexcept -> ConceptB;
+    { i >> x      } noexcept -> ConceptB;
+
+    { i ^=  i      } noexcept -> ConceptB;
+    { i <<= x      } noexcept -> ConceptB;
+    { i >>= x      } noexcept -> ConceptB;
+};
+
+
+template<typename T>
+concept ConceptD =  requires(T i, int x) {
+    { i++     } noexcept -> ConceptC;
+    { ++i     } noexcept -> ConceptC;
+    { i--     } noexcept -> ConceptC;
+    { --i     } noexcept -> ConceptC;
+    { i + i   } noexcept -> ConceptC;
+    { i - i   } noexcept -> ConceptC;
+    { i += i  } noexcept -> ConceptC;
+    { i -= i  } noexcept -> ConceptC;
+
+    { i * i      } noexcept -> ConceptC;
+    { i / i      } noexcept -> ConceptC;
+    { i % i      } noexcept -> ConceptC;
+    { i *= i     } noexcept -> ConceptC;
+    { i /= i     } noexcept -> ConceptC;
+    { i %= i     } noexcept -> ConceptC;
+
+    { i |  i     } noexcept -> ConceptC;
+    { i &  i     } noexcept -> ConceptC;
+    { i |= i     } noexcept -> ConceptC;
+    { i &= i     } noexcept -> ConceptC;
+
+    { ~i          } noexcept -> ConceptC;
+
+    { i ^  i      } noexcept -> ConceptC;
+    { i << x      } noexcept -> ConceptC;
+    { i >> x      } noexcept -> ConceptC;
+
+    { i ^=  i      } noexcept -> ConceptC;
+    { i <<= x      } noexcept -> ConceptC;
+    { i >>= x      } noexcept -> ConceptC;
 };
 
 template<typename T>
-concept TestedConcept = ConceptA<T> && ConceptB<T> && ConceptC<T>;
+concept TestedConcept = ConceptA<T> && ConceptB<T> && ConceptC<T> && ConceptD<T>;
 
 
 void foo(TestedConcept auto const &) {}
