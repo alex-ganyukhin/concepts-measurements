@@ -6,6 +6,6 @@ void foo(IsBig auto const &) { }
 void foo(auto const &) {}
 
 void later() {
-    foo('a');
-    foo(1);
+    foo<char>('a');
+    foo<int>(1);
 }
